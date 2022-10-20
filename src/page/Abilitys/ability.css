@@ -1,0 +1,198 @@
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-webkit-keyframes hvr-wobble-top {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+@keyframes hvr-wobble-top {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+
+.container {
+    width: 100%;
+    color: white;
+}
+
+#skillsDiv {
+    margin-top: 50px;
+    border: 4mm ridge rgba(50, 186, 220, 0.6);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    background: linear-gradient(270deg, #5e0000, #4c00ff, #100855, #880076);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 60s ease infinite;
+}
+
+#skillsTitle {
+    margin-top: 50px;
+    font-size: 3.0em;
+    text-align: center;
+    transition: all .5s;
+}
+
+#skillsTitle:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(255, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+    filter: brightness(1.1);
+    letter-spacing: 8px;
+}
+
+#skillsText {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#skillsImgDiv {
+    min-height: 550px;
+    max-height: 1500px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#skillImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    transition: filter .3s;
+}
+
+#skillImg:hover,
+#skillImg:focus,
+#skillImg:active {
+    cursor: pointer;
+    -webkit-animation-name: hvr-wobble-top;
+    animation-name: hvr-wobble-top;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    filter: brightness(1.2);
+}
+
+@media only screen and (min-width: 1px) {
+    #skillImg {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        transition: filter .3s;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #skillImg {
+        width: 200px;
+        height: 200px;        
+    }
+}

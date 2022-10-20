@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Kanit:wght@400;500;700&family=Kdam+Thmor+Pro&family=Noto+Sans:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&family=Splash&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#navbarNav {    
+    font-family: 'Carter One',sans-serif;
+    justify-content: end;
+}
+
+#logo {
+    font-size: 34px;
+    color: rgb(255, 244, 244);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    transition: all .3s;
+    font-family: 'Carter One';
+}
+
+#logo strong {
+    color: rgb(60, 200, 255);
+}
+
+#logo:hover {
+    text-shadow: 2px 2px 3px rgb(255, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+    filter: brightness(1.1);
+    letter-spacing: 2px;
+}
+
+#headerBtn {
+    margin-right: 80px;
+    transition: all .3s;
+}
+
+#headerBtn:hover {
+    color: #73faf3;
+    text-shadow: rgb(0, 0, 0) 1px 2px;    
+}
+
+li {
+    font-size: 20px;
+}
+
+#navbar-item {
+    margin-left: 40px;
+    color: rgb(5, 155, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+    transition: all .3s;
+}
+
+#navbar-item:hover {
+    letter-spacing: 2px;
+    filter: brightness(1.7);
+    text-shadow: 1px 1px 2px rgb(161, 0, 0), 0 0 1em blue, 0 0 0.2em blue;
+}

@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "nome": "LandingPage",
+            "descricao": "React - JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196291912-ae454af7-2e4c-4165-9599-99bf12bb8a88.png",
+            "githubLink": "https://github.com/Luannunes02/Landing-Page",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196572858-5e482df5-1c24-4bfa-b274-e5899e37a07c.gif",
+            "deploy": "https://landing-page-ochre-three.vercel.app"
+        },
+        {
+            "id": 2,
+            "nome": "PrimeFlix",
+            "descricao": "React - JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196137103-fb0930ba-6f31-48ca-8f11-ead2df7afd02.png",
+            "githubLink": "https://github.com/Luannunes02/PrimeFlix-Site",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196571717-b7716e80-fc93-4eba-b3cc-f9bcd9530437.gif",
+            "deploy": "https://primeflix-zeta.vercel.app"
+        },
+        {
+            "id": 3,
+            "nome": "DevStore",
+            "descricao": "JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196402970-e6af7913-d0c1-4673-a81e-b07389d8462b.png",
+            "githubLink": "https://github.com/Luannunes02/DevStore",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196573676-394f87be-8eb6-4806-818d-4708862a0804.gif",
+            "deploy": "https://devstore-amber.vercel.app"
+        },
+        {
+            "id": 4,
+            "nome": "Jogo-da-Velha",
+            "descricao": "JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196404607-4db48eba-8693-4a7f-8527-2b843955cb6b.png",
+            "githubLink": "https://github.com/Luannunes02/Jogo-da-velha",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196572345-6fdb96c3-8cbe-4682-b86a-3584c5f3d555.gif",
+            "deploy": "https://jogo-da-velha-sable.vercel.app"
+        },
+        {
+            "id": 5,
+            "nome": "Calculadora",
+            "descricao": "JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196425866-74c692ee-5bfe-40d1-b019-08c804ed76a8.png",
+            "githubLink": "https://github.com/Luannunes02/Calculadora",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196572570-f8e2f7f6-0bd3-4634-bad7-f9ab1d63a9f4.gif",
+            "deploy": "https://calculadora-xi-virid.vercel.app"
+        },
+        {
+            "id": 6,
+            "nome": "Gerador-de-piada",
+            "descricao": "JavaScript - CSS - HTML",
+            "capa": "https://user-images.githubusercontent.com/105875989/196560027-a07a4b76-947b-4b8e-9de8-9fe8f93e2581.png",
+            "githubLink": "https://github.com/Luannunes02/Gerador-de-piadas",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/196572075-c7fe8991-4959-4080-bb31-3093bf421e8c.gif",
+            "deploy": "https://gerador-de-piadas.vercel.app"
+        }
+    ]
+}
