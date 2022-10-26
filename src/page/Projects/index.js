@@ -51,7 +51,7 @@ const Projects = () => {
         <section className='container-fluid' id='projectsSection'>
             <div className='container'>
                 <div className='row'>
-                    <h1 className='col' id='projectsTitle' data-aos="fade-up" data-aos-duration="2000">Projects</h1>
+                    <h1 className='col' id='projectsTitle' data-aos="fade-up" data-aos-duration="2000">Projetos</h1>
                 </div>
                 <div className='row'>
                     <div className='col' id='cardProjectsContainer'>

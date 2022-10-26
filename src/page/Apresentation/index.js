@@ -12,8 +12,8 @@ const Apresentation = () => {
             <Header />
             <div className="container">
                 <div className="row" data-aos-duration="1000" data-aos-easing="ease-out-cubic" data-aos="flip-left" id="arrow-animation">
-                    <h3 className="text-center mt-5 row" id="welcome" onClick={() => toast.success("Be very welcome ;)")}>
-                        Welcome to my portfolio
+                    <h3 className="text-center mt-5 row" id="welcome" onClick={() => toast.success("Seja muito bem vindo 😉")}>
+                        Bem vindo ao meu portifolio
                     </h3>
                 </div>
 
@@ -30,7 +30,7 @@ const Apresentation = () => {
 
                         <p>
 
-                            👋 Hello, my name is Luan, I'm a FullStack Developer, I finished ADS college at the end of 2021, constantly training every day to improve and evolve more and more in the programming universe, which by the way I'm an enthusiast😁.</p>
+                        👋 Sou o Luan, desenvolvedor Front-end, sou entusiasta quando o assunto é programação, gosto tanto de desenvolvedor quanto de resolver bugs que aparecem durante o desenvolvimento, sempre praticando e me aperfeiçoando cada vez mais na área.</p>
                     </div>
                     <div className="col-5" id="svg"></div>
                 </div>
