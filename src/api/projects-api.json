@@ -2,6 +2,24 @@
     "projects": [
         {
             "id": 1,
+            "nome": "Aula-de-reforço",
+            "descricao": "ReactJS - Bootstrap - JavaScript - CSS",
+            "capa": "https://user-images.githubusercontent.com/105875989/214261238-5d7fab85-3191-426c-8471-5284c7e5490e.png",
+            "githubLink": "https://github.com/Luannunes02/Aula-de-Reforco-SPA",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/215294672-6cb6191b-ed22-4688-9555-3a0495d64158.gif",
+            "deploy": "https://aula-de-reforco-spa.vercel.app"
+        },
+        {
+            "id": 2,
+            "nome": "FakeShop",
+            "descricao": "ReactJS - SemanticUi - Redux",
+            "capa": "https://user-images.githubusercontent.com/105875989/215294738-84ac9d2f-cc52-460f-83e1-81517b3e78e2.png",
+            "githubLink": "https://github.com/Luannunes02/FakeShop",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/214260394-218112c2-530d-4c54-b046-3549d0fb24c1.gif",
+            "deploy": "https://fakeshop-nu.vercel.app"
+        },
+        {
+            "id": 3,
             "nome": "Noroeste",
             "descricao": "ReactJS - Bootstrap - JavaScript - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/198148570-db2b0fde-55d7-4d3d-979b-1f61f0a677dc.png",
@@ -10,7 +28,7 @@
             "deploy": "https://noroeste.vercel.app"
         },
         {
-            "id": 2,
+            "id": 4,
             "nome": "PrimeFlix",
             "descricao": "React - JavaScript - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/196137103-fb0930ba-6f31-48ca-8f11-ead2df7afd02.png",
@@ -19,7 +37,7 @@
             "deploy": "https://primeflix-zeta.vercel.app"
         },
         {
-            "id": 3,
+            "id": 5,
             "nome": "DevStore",
             "descricao": "JavaScript - Bootstrap - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/196402970-e6af7913-d0c1-4673-a81e-b07389d8462b.png",
@@ -28,7 +46,7 @@
             "deploy": "https://devstore-amber.vercel.app"
         },
         {
-            "id": 4,
+            "id": 6,
             "nome": "Créditei",
             "descricao": "React - Bootstrap - JavaScript - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/196291912-ae454af7-2e4c-4165-9599-99bf12bb8a88.png",
@@ -38,7 +56,7 @@
         }
         ,
         {
-            "id": 5,
+            "id": 7,
             "nome": "Jogo-da-Velha",
             "descricao": "JavaScript - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/196404607-4db48eba-8693-4a7f-8527-2b843955cb6b.png",
@@ -47,7 +65,7 @@
             "deploy": "https://jogo-da-velha-sable.vercel.app"
         },
         {
-            "id": 6,
+            "id": 8,
             "nome": "Gerador-de-piada",
             "descricao": "JavaScript - CSS - HTML",
             "capa": "https://user-images.githubusercontent.com/105875989/196560027-a07a4b76-947b-4b8e-9de8-9fe8f93e2581.png",
