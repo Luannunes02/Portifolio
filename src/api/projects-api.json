@@ -17,7 +17,7 @@
             "githubLink": "https://github.com/Luannunes02/Ciane-corretora",
             "linkyoutube": "https://user-images.githubusercontent.com/105875989/221061483-9a1e5da5-9cb0-415f-9ab5-64100fa40f5c.gif",
             "deploy": "https://ciane-corretora.vercel.app"
-        },
+        },        
         {
             "id": 3,
             "nome": "Noroeste",
@@ -47,12 +47,12 @@
         },
         {
             "id": 6,
-            "nome": "PokeNext",
-            "descricao": "NextJs - CSS",
-            "capa": "https://user-images.githubusercontent.com/105875989/198901857-e5eeced6-4d61-4ab2-a4da-345d295c20f1.png",
-            "githubLink": "https://github.com/Luannunes02/PokeNext",
-            "linkyoutube": "https://user-images.githubusercontent.com/105875989/198901835-c4971ff3-ce90-4823-9601-5d4037991c7a.gif",
-            "deploy": "https://primeflix-zeta.vercel.app"
+            "nome": "Fakeshop",
+            "descricao": "React - Redux - JavaScript",
+            "capa": "https://user-images.githubusercontent.com/105875989/215294738-84ac9d2f-cc52-460f-83e1-81517b3e78e2.png",
+            "githubLink": "https://github.com/Luannunes02/FakeShop",
+            "linkyoutube": "https://user-images.githubusercontent.com/105875989/215294672-6cb6191b-ed22-4688-9555-3a0495d64158.gif",
+            "deploy": "https://fakeshop-nu.vercel.app"
         },
         {
             "id": 7,
